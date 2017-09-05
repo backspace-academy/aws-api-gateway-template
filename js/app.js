@@ -12,7 +12,7 @@ function getPet(){
 	else{
 		var apiRequest = apiEndpoint + petId;
 		$.get(apiRequest, function(data, status){
-			alert("Type: " + data.type + "\nPrice: $" + data.price + "\nStatus: " + status);
+			alert( "\nStatus: " + status + "\nType: " + data.type + "\nPrice: $" + data.price);
 			});		
 	}
 }
